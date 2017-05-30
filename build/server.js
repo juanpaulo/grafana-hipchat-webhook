@@ -51,7 +51,7 @@ server.route({
     };
     var options = {
       method: 'POST',
-      uri: 'https://rakuten.hipchat.com/v2/room/3704706/notification?auth_token=ScPcItp32gLip4kPBPhvztsLK3xojGU9ZuuZwwQd',
+      uri: process.env.HIPCHAT_URL + '/v2/room/' + process.env.HIPCHAT_ROOM_ID + '/notification?auth_token=' + process.env.HIPCHAT_ROOM_NOTIFICATION_TOKEN,
       body: body,
       json: true // Automatically stringifies the body to JSON
     };
