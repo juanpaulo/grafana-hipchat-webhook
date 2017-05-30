@@ -1,0 +1,36 @@
+{
+  "name": "grafana-hipchat-webhook",
+  "version": "1.0.0",
+  "description": "Grafana notifications to HipChat via Webhook",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpaulo/grafana-hipchat-webhook.git"
+  },
+  "keywords": [
+    "grafana",
+    "hipchat",
+    "webhook",
+    "alert",
+    "notifications",
+    "hapijs"
+  ],
+  "author": "Juan Paulo Gutierrez <hi@juanpaulo.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanpaulo/grafana-hipchat-webhook/issues"
+  },
+  "homepage": "https://github.com/juanpaulo/grafana-hipchat-webhook#readme",
+  "dependencies": {
+    "hapi": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "^6.9.5"
+  }
+}
