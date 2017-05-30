@@ -4,7 +4,7 @@
   "description": "Grafana notifications to HipChat via Webhook",
   "main": "server.js",
   "scripts": {
-    "prestart": "rm -rf build/* && babel -d ./build server.js",
+    "postinstall": "rm -rf build/* && babel -d ./build server.js",
     "start": "NODE_ENV=production node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
